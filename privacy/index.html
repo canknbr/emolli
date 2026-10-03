@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Privacy Policy · Emolli: Eczema &amp; Skin Tracker</title>
+<meta name="description" content="Privacy Policy for the Emolli app.">
+<link rel="canonical" href="https://canknbr.github.io/emolli/privacy/">
+
+<style>
+:root { --bg: #F6F5F1; --card: #FFFFFF; --border: #E5E4DE; --text: #14152E; --muted: #565873; --accent: #14152E; --onAccent: #FFFFFF; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0F1016; --card: #171823; --border: rgba(255, 255, 255, 0.09); --text: #F1F1F5; --muted: #A9AABC; --accent: #F1F1F5; --onAccent: #14152E; } }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+a { color: var(--accent); text-underline-offset: 3px; }
+header, main, footer { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 20px; padding-bottom: 20px; flex-wrap: wrap; }
+.wordmark { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; text-decoration: none; color: var(--text); }
+nav a { margin-left: 16px; font-size: 15px; text-decoration: none; color: var(--muted); }
+nav a:hover { color: var(--text); text-decoration: underline; }
+main { padding-bottom: 48px; }
+h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.02em; margin: 24px 0 8px; }
+h2 { font-size: 21px; margin: 32px 0 8px; }
+h3 { font-size: 18px; margin: 24px 0 6px; }
+p, li { color: var(--text); }
+.date, .muted { color: var(--muted); font-size: 15px; }
+ul { padding-left: 22px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 16px 0; }
+.grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+@media (min-width: 640px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+.button { display: inline-block; background: var(--accent); color: var(--onAccent); padding: 12px 20px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--border); vertical-align: top; }
+footer { padding-top: 24px; padding-bottom: 40px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <a class="wordmark" href="/emolli/">Emolli</a>
+  <nav><a href="/emolli/">Home</a><a href="/emolli/support/">Support</a><a href="/emolli/privacy/">Privacy</a><a href="/emolli/terms/">Terms</a></nav>
+</header>
+<main>
+<h1>Privacy Policy</h1>
+<p class="date">Effective date: 2026-10-02</p>
+
+<p>Emolli is a skin diary for eczema and related conditions. This policy explains what the app records, where it is kept, who can see it, and the rights you have over it. The data controller is <strong>Can Kanbur, individual developer (Türkiye)</strong>, reachable at <a href="mailto:cankanbur1@gmail.com">cankanbur1@gmail.com</a>.</p>
+
+<h2>1. What Emolli records</h2>
+<ul>
+  <li><strong>Account:</strong> your e-mail address and an optional display name, only if you create an account. The app works without one.</li>
+  <li><strong>Health diary:</strong> skin check-ins and severity scores, itch and sleep notes, food, stress, medication, product and trigger entries, treatment plans and the notes you write.</li>
+  <li><strong>Photos:</strong> pictures of your skin that you choose to take or import. Emolli never reads your photo library on its own.</li>
+  <li><strong>Approximate location:</strong> used only to ask a weather service for local conditions, and only after you allow it. Your coordinates are not stored on our servers and are not linked to your account.</li>
+  <li><strong>Crash and diagnostic reports:</strong> when the app fails or freezes, the error, the screen it happened on, the app version, the platform and the device model, linked to your account's random identifier if you are signed in. Device names, e-mail addresses and diary contents are not part of them.</li>
+  <li><strong>Purchase identifiers:</strong> when you subscribe, Apple and RevenueCat process the purchase and Emolli keeps the subscription status and an anonymous purchase identifier. Emolli never sees your payment details.</li>
+</ul>
+<p>Emolli does not use advertising identifiers, does not track you across other apps or websites, and does not run usage tracking.</p>
+
+<h2>2. Why it is recorded</h2>
+<ul>
+  <li>To keep your diary and show it back to you as timelines, correlations and reports.</li>
+  <li>To back up your diary to the cloud and keep it in sync across your devices, when you sign in.</li>
+  <li>To send the reminders you turn on. Reminders are scheduled on your device; no push server is involved.</li>
+  <li>To unlock the features you have paid for.</li>
+  <li>To find and fix defects.</li>
+</ul>
+<p>Under the GDPR the legal bases are performance of the service you asked for, your explicit consent for health data and photos, and our legitimate interest in keeping the app working. Under Türkiye's KVKK, health data is processed only with your explicit consent, which you give when you start recording and can withdraw by deleting your data.</p>
+
+<h2>3. Where it is kept</h2>
+<p>Your diary lives on your device first. If you sign in, it is also stored in a database hosted by Supabase in <strong>Frankfurt, Germany (European Union)</strong>. Photos go to a private storage bucket in the same region. Data is encrypted in transit and at rest, and every record is protected by row-level security so that only your own account can read it. Backups of the database are kept for disaster recovery for up to 7 days.</p>
+
+<h2>4. Who else sees it</h2>
+<p>We do not sell, rent or trade your data, and we never share your health diary with advertisers or data brokers. The only third parties are processors that a feature needs:</p>
+<ul>
+  <li><strong>Supabase</strong> hosts the database, file storage and sign-in (EU region).</li>
+  <li><strong>Sentry</strong> receives the crash and diagnostic reports described above and stores them in its EU region (Frankfurt, Germany).</li>
+  <li><strong>Google</strong> (Gmail) delivers the account e-mails — sign-up confirmation and password reset — so your e-mail address passes through Google's mail servers, which may be outside the EU; such transfers rely on the EU–US Data Privacy Framework and Standard Contractual Clauses.</li>
+  <li><strong>Apple</strong> and <strong>RevenueCat</strong> process subscriptions and receipts.</li>
+  <li><strong>Open-Meteo</strong> receives an approximate location to return local weather; nothing else is sent.</li>
+  <li><strong>GitHub</strong> hosts the website where this policy and the support page are published; like any web host it sees the IP address of visitors to those pages, not data from the app.</li>
+  <li>Authorities, only where the law obliges us.</li>
+</ul>
+<p>When you export a report or share a photo, you decide who receives it.</p>
+
+<h2>5. How long it is kept</h2>
+<ul>
+  <li>Local data stays on your device until you delete it in Settings › Data &amp; Privacy or remove the app.</li>
+  <li>Cloud data is deleted immediately when you delete your account in the app; backups purge within 7 days.</li>
+  <li>Crash reports are kept for 90 days.</li>
+  <li>Subscription records are kept as long as Apple and RevenueCat require for the purchase.</li>
+</ul>
+
+<h2>6. Your rights (KVKK and GDPR)</h2>
+<ul>
+  <li><strong>Access and portability:</strong> export everything in Settings › Data &amp; Privacy › Export.</li>
+  <li><strong>Rectification:</strong> edit any entry in the app.</li>
+  <li><strong>Erasure:</strong> delete individual entries, all local data, or your whole account, in the app, without contacting us.</li>
+  <li><strong>Objection and restriction:</strong> turn off cloud backup, location or reminders at any time.</li>
+  <li><strong>Withdraw consent:</strong> deleting your data withdraws it.</li>
+  <li><strong>Complain:</strong> to the Turkish Personal Data Protection Authority (KVKK Kurumu) or to your local EU supervisory authority.</li>
+</ul>
+<p>For anything the app itself cannot do, write to <a href="mailto:cankanbur1@gmail.com">cankanbur1@gmail.com</a>; we answer within 30 days.</p>
+
+<h2>7. Children</h2>
+<p>Emolli is not intended for people under 16 and we do not knowingly collect their data. If you believe a child has created an account, contact us and it will be deleted.</p>
+
+<h2>8. Changes</h2>
+<p>When this policy changes materially, the app shows a notice and the effective date above is updated. The current version is always at <a href="https://canknbr.github.io/emolli/privacy/">canknbr.github.io/emolli/privacy/</a>.</p>
+
+<h2>9. Contact</h2>
+<p>Can Kanbur, individual developer (Türkiye) — <a href="mailto:cankanbur1@gmail.com">cankanbur1@gmail.com</a></p>
+</main>
+<footer>
+  <p>Questions: <a href="mailto:cankanbur1@gmail.com">cankanbur1@gmail.com</a></p>
+  <p>© 2026 Can Kanbur · Emolli is not a medical device and does not give medical advice.</p>
+</footer>
+</body>
+</html>
